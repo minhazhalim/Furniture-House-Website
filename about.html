@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+          <title>About || Comfy Store</title>
+          <link rel="stylesheet" href="./CascadingStyleSheets/design.css" />
+          <link rel="stylesheet" href="./CascadingStyleSheets/normalize.css" />
+          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' integrity='sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==' crossorigin='anonymous'/>
+     </head>
+  <body>
+     <nav class="navbar page">
+          <div class="nav-center">
+               <div>
+                    <button type="menu" class="toggle-nav"><i class="fas fa-bars"></i></button>
+                    <ul class="nav-links">
+                         <li><a href="main.html" class="nav-link">home</a></li>
+                         <li><a href="about.html" class="nav-link">about</a></li>
+                         <li><a href="product.html" class="nav-link">product</a></li>
+                    </ul>
+               </div>
+               <img src="./assets/logo-black.svg" alt="Logo" class="nav-logo">
+               <div class="toggle-container">
+                    <button type="menu" class="toggle-cart"><i class="fas fa-shopping-cart"></i></button>
+                    <span class="cart-item-count">1</span>
+               </div>
+          </div>
+     </nav>
+     <section class="page-hero">
+          <div class="section-center"><h3 class="page-hero-title">home / about</h3></div>
+     </section>
+     <section class="section section-center">
+          <div class="title">
+               <span></span>
+               <h2>our history</h2>
+               <span></span>
+          </div>
+          <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat accusantium sapiente tempora sed dolore esse deserunt eaque excepturi, delectus error accusamus vel eligendi, omnis beatae. Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque dolore, obcaecati incidunt sequi blanditiis est exercitationem molestiae delectus saepe odio eligendi modi porro eaque in libero minus unde sapiente consectetur architecto. Ullam rerum, nemo iste ex, eaque perspiciatis nisi, eum totam velit saepe sed quos similique amet. Ex, voluptate accusamus nesciunt totam vitae esse iste.</p>
+     </section>
+     <div class="sidebar-overlay">
+          <aside class="sidebar">
+               <button class="sidebar-close"><i class="fas fa-times"></i></button>
+               <ul class="sidebar-links">
+                    <li>
+                         <a href="index.html" class="sidebar-link"><i class="fas fa-home fa-fw"></i>home</a>
+                    </li>
+                    <li>
+                         <a href="about.html" class="sidebar-link"><i class="fas fa-book fa-fw"></i>about</a>
+                    </li>
+                    <li>
+                         <a href="product.html" class="sidebar-link"><i class="fas fa-couch fa-fw"></i>product</a>
+                    </li>
+               </ul>
+          </aside>
+     </div>
+     <div class="cart-overlay">
+          <aside class="cart">
+               <button class="cart-close"><i class="fas fa-times"></i></button>
+               <header><h3 class="text-slanted">your bag</h3></header>
+               <div class="cart-items">
+                    <article class="cart-item">
+                         <img src="https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg" alt="Product" class="cart-item-image">
+                         <div class="cart-item-info">
+                              <h5 class="cart-item-name">high-back bench</h5>
+                              <span class="cart-item-price">$19.99</span>
+                              <button type="button" class="cart-item-remove-button">remove</button>
+                         </div>
+                         <div>
+                              <button type="button" class="cart-item-increase-button"><i class="fas fa-chevron-up"></i></button>
+                              <span class="cart-item-amount">1</span>
+                              <button type="button" class="cart-item-decrease-button"><i class="fas fa-chevron-down"></i></button>
+                         </div>
+                    </article>
+                    <article class="cart-item">
+                         <img src="https://dl.airtable.com/.attachments/da5e17fd71f50578d525dd5f596e407e/d5e88ac8/product-2.jpg" alt="Product" class="cart-item-image">
+                         <div class="cart-item-info">
+                              <h5 class="cart-item-name">product</h5>
+                              <span class="cart-item-price">$19.99</span>
+                              <button type="button" class="cart-item-remove-button">remove</button>
+                         </div>
+                         <div>
+                              <button type="button" class="cart-item-increase-button"><i class="fas fa-chevron-up"></i></button>
+                              <span class="cart-item-amount">1</span>
+                              <button type="button" class="cart-item-decrease-button"><i class="fas fa-chevron-down"></i></button>
+                         </div>
+                    </article>
+               </div>
+               <footer>
+                    <h3 class="cart-total text-slanted">total : $12.99</h3>
+                    <button class="button cart-checkout">checkout</button>
+               </footer>
+          </aside>
+     </div>
+          <script src="./JavaScript/development.js"></script>
+     </body>
+</html>
